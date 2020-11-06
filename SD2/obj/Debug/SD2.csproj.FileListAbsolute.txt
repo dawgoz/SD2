@@ -11,3 +11,16 @@ C:\Users\dawgoz\source\repos\SD2\SD2\obj\Debug\SD2.exe
 C:\Users\dawgoz\source\repos\SD2\SD2\obj\Debug\SD2.pdb
 C:\Users\dawgoz\source\repos\SD2\SD2\obj\Debug\SD2.Form3.resources
 C:\Users\dawgoz\source\repos\SD2\SD2\obj\Debug\SD2.Form4.resources
+C:\Users\dawgoz\source\SD2\SD2\bin\Debug\SD2.exe.config
+C:\Users\dawgoz\source\SD2\SD2\bin\Debug\SD2.exe
+C:\Users\dawgoz\source\SD2\SD2\bin\Debug\SD2.pdb
+C:\Users\dawgoz\source\SD2\SD2\obj\Debug\SD2.csprojAssemblyReference.cache
+C:\Users\dawgoz\source\SD2\SD2\obj\Debug\SD2.Form1.resources
+C:\Users\dawgoz\source\SD2\SD2\obj\Debug\SD2.Form2.resources
+C:\Users\dawgoz\source\SD2\SD2\obj\Debug\SD2.Form3.resources
+C:\Users\dawgoz\source\SD2\SD2\obj\Debug\SD2.Form4.resources
+C:\Users\dawgoz\source\SD2\SD2\obj\Debug\SD2.Properties.Resources.resources
+C:\Users\dawgoz\source\SD2\SD2\obj\Debug\SD2.csproj.GenerateResource.cache
+C:\Users\dawgoz\source\SD2\SD2\obj\Debug\SD2.csproj.CoreCompileInputs.cache
+C:\Users\dawgoz\source\SD2\SD2\obj\Debug\SD2.exe
+C:\Users\dawgoz\source\SD2\SD2\obj\Debug\SD2.pdb

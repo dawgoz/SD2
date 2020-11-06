@@ -60,7 +60,7 @@ namespace SD2
 
         private void btnFull_Click(object sender, EventArgs e)
         {
-            if (deq.size == 1 && Form2.strValues == "" || !deq.IsFull(deq.size))
+            if (deq.size == 1 && Form2.strValues == "" || !deq.IsFull(deq.deqSize))
             {
                 lblFull.Text = "Not Full";
             }
@@ -99,7 +99,7 @@ namespace SD2
         {
             deq.InsertFront(txtInsertFirst.Text);
             txtInsertFirst.Clear();
-            if (deq.GetSize(deq.deqSize) == deq.size)
+            if (deq.GetElementCount() > deq.deqSize)
             {
                 deq.deqSize++;
             }
@@ -109,10 +109,9 @@ namespace SD2
         {
             deq.InsertLast(txtInsertLast.Text);
             txtInsertLast.Clear();
-            if (deq.GetSize(deq.deqSize) == deq.size)
+            if (deq.GetElementCount()>deq.deqSize)
             {
                 deq.deqSize++;
-
             }
         }
     }

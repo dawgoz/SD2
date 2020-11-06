@@ -72,5 +72,10 @@ namespace SD2
             }
             return result;
         }
+
+        public int GetElementCount()
+        {
+            return deq.Count();
+        }
     }
 }
