@@ -77,5 +77,24 @@ namespace SD2
         {
             return deq.Count();
         }
+
+        public bool IsPalindrome()
+        {
+            string temp = "";
+            string temp2 = "";
+            
+            foreach (var item in deq)
+            {
+                temp += item + " ";
+            }
+
+            deq.Reverse();
+            foreach (var item in deq)
+            {
+                temp2 += item + " ";
+            }
+
+            return temp.Equals(temp2) ? true : false;
+        }
     }
 }

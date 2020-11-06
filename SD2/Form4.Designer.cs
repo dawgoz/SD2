@@ -41,7 +41,7 @@
             this.lblFirst = new System.Windows.Forms.Label();
             this.lblLast = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblPalindrome = new System.Windows.Forms.Label();
             this.txtRead = new System.Windows.Forms.TextBox();
             this.btnDeleteFirst = new System.Windows.Forms.Button();
             this.btnDeleteLast = new System.Windows.Forms.Button();
@@ -167,15 +167,16 @@
             this.button2.TabIndex = 13;
             this.button2.Text = "Is deque a palindrome";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // label3
+            // lblPalindrome
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(50, 255);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(119, 25);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "palindrome?";
+            this.lblPalindrome.AutoSize = true;
+            this.lblPalindrome.Location = new System.Drawing.Point(50, 255);
+            this.lblPalindrome.Name = "lblPalindrome";
+            this.lblPalindrome.Size = new System.Drawing.Size(119, 25);
+            this.lblPalindrome.TabIndex = 14;
+            this.lblPalindrome.Text = "palindrome?";
             // 
             // txtRead
             // 
@@ -251,7 +252,7 @@
             this.Controls.Add(this.btnDeleteLast);
             this.Controls.Add(this.btnDeleteFirst);
             this.Controls.Add(this.txtRead);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblPalindrome);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.lblLast);
             this.Controls.Add(this.lblFirst);
@@ -288,7 +289,7 @@
         private System.Windows.Forms.Label lblFirst;
         private System.Windows.Forms.Label lblLast;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblPalindrome;
         private System.Windows.Forms.TextBox txtRead;
         private System.Windows.Forms.Button btnDeleteFirst;
         private System.Windows.Forms.Button btnDeleteLast;

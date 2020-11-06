@@ -114,5 +114,11 @@ namespace SD2
                 deq.deqSize++;
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (deq.IsPalindrome()) lblPalindrome.Text = "Yes";
+            else lblPalindrome.Text = "No";
+        }
     }
 }
