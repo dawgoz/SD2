@@ -120,5 +120,19 @@ namespace SD2
             if (deq.IsPalindrome()) lblPalindrome.Text = "Yes";
             else lblPalindrome.Text = "No";
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            this.Hide();
+            form1.ShowDialog();
+            /*deq.deqSize = 0;
+            deq.size = 0;
+            valueArr =null;
+            strValues = "";*/
+            deq.Clear();
+            txtRead.Clear();
+            deq = null;
+        }
     }
 }

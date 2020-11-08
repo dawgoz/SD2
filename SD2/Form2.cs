@@ -22,6 +22,8 @@ namespace SD2
 
         private void btnCreateManualy_Click(object sender, EventArgs e)
         {
+            strValues = null;
+            valueArr =null;
             deq.size = 0;
             deq.deqSize = int.Parse(txtSize.Text);
             strValues = txtValues.Text;

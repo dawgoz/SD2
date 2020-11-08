@@ -94,7 +94,16 @@ namespace SD2
                 temp2 += item + " ";
             }
 
-            return temp.Equals(temp2) ? true : false;
+            if (temp.Equals(temp2) && deq.Count() > 1)
+            {
+                return true;
+            }
+            else return false;
+        }
+
+        public void Clear()
+        {
+            deq.Clear();
         }
     }
 }

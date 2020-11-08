@@ -174,16 +174,15 @@
             this.lblPalindrome.AutoSize = true;
             this.lblPalindrome.Location = new System.Drawing.Point(50, 255);
             this.lblPalindrome.Name = "lblPalindrome";
-            this.lblPalindrome.Size = new System.Drawing.Size(119, 25);
+            this.lblPalindrome.Size = new System.Drawing.Size(0, 25);
             this.lblPalindrome.TabIndex = 14;
-            this.lblPalindrome.Text = "palindrome?";
             // 
             // txtRead
             // 
-            this.txtRead.Location = new System.Drawing.Point(417, 36);
+            this.txtRead.Location = new System.Drawing.Point(408, 36);
             this.txtRead.Multiline = true;
             this.txtRead.Name = "txtRead";
-            this.txtRead.Size = new System.Drawing.Size(184, 73);
+            this.txtRead.Size = new System.Drawing.Size(193, 73);
             this.txtRead.TabIndex = 15;
             // 
             // btnDeleteFirst
@@ -244,7 +243,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(796, 528);
+            this.ClientSize = new System.Drawing.Size(796, 491);
             this.Controls.Add(this.btnInsertLast);
             this.Controls.Add(this.txtInsertLast);
             this.Controls.Add(this.btnInsertFirst);
@@ -268,7 +267,7 @@
             this.Controls.Add(this.btnEmpty);
             this.Name = "Form4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form4";
+            this.Text = "Functions";
             this.ResumeLayout(false);
             this.PerformLayout();
 

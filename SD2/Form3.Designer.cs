@@ -45,7 +45,7 @@
             // 
             this.btnChoose.Location = new System.Drawing.Point(31, 157);
             this.btnChoose.Name = "btnChoose";
-            this.btnChoose.Size = new System.Drawing.Size(134, 35);
+            this.btnChoose.Size = new System.Drawing.Size(134, 45);
             this.btnChoose.TabIndex = 0;
             this.btnChoose.Text = "Choose file";
             this.btnChoose.UseVisualStyleBackColor = true;
